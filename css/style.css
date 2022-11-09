@@ -1,0 +1,564 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;	
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*header part css start*/
+
+img{
+	vertical-align: middle;
+}
+
+header{
+	background-color: #0872b9;
+}
+.welcome p{
+	margin-top: 15px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+.head_icon ul{
+	float: right;
+	margin-top: 10px;
+}
+.head_icon ul li{
+	float: left;
+	padding: 0px 13px;
+}
+.head_icon ul li a{
+	color: #fff;
+	transition: all linear .3s;
+}
+.head_icon ul li a:hover{
+	color: #000;
+	transition: all linear .3s;
+}
+/*header css end*/
+
+/*menu css start*/
+.navbar-nav .nav-item .nav-link{
+	color: #353535;
+	text-transform: capitalize;
+	padding: 19px 13px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color: #0872b9;
+	transition: all linear .3s;
+}
+.navbar-light .navbar-nav .active .nav-link{
+	color: #0872b9;
+	transition: all linear .3s;
+}
+
+/*menu css end*/
+
+/*banner css start*/
+.banner{
+	background: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.overlay_banner{
+	padding: 85px 0;
+	background-color: rgba(52, 73, 94,.6);
+}
+.banner_content{
+	text-align: right;
+	color: #fff;
+}
+.banner_content h5{
+ font-size: 30px;
+ font-family: 'Oswald', sans-serif;
+ font-weight: 400;
+ text-transform: uppercase;
+
+}
+
+.banner_content h4{
+ font-size: 40px;
+ font-family: 'Oswald', sans-serif;
+ font-weight: 700;
+ text-transform: uppercase;
+ padding-bottom: 27px;
+
+}
+.banner_content p{
+ font-size: 14px;
+ font-family: 'open sans', sans-serif;
+ font-weight: 400;
+ line-height: 25px;
+ padding-bottom: 32px;
+ 
+
+}
+.banner_content a{
+	padding: 10px 22px;
+	/*background-color: #0872b9;*/
+	border: 2px solid #fff;
+	color: #fff;
+	text-transform: uppercase; 
+	font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: all linear .3s;
+}
+.banner_content a:hover{
+	background-color: #0872b9;
+	border:2px solid #0872b9;
+	transition: all linear .3s;
+}
+/*banner css end*/
+
+/*common_headin css start*/
+.common_heading{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+
+}
+.common_heading img{
+	position: relative;
+	transform: translateX(-17%);
+	top: -22px;
+}
+.ser_head img{
+	position: relative;
+	transform: translateX(-33%);
+}
+/*common_headin css end*/
+
+/*about part css start*/
+.about_main{
+	padding: 50px 0;
+}
+.about_content{
+	padding: 46px 0 0;
+}
+.about_content p{
+	color: #555555;
+	font-size: 13px;
+	padding-bottom: 30px;
+}
+/*about part css end*/
+
+/*service part css start*/
+
+.service{
+	padding-bottom: 51px;
+}
+.ser_part{
+    height: 80px;
+    width: 80px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+    position: relative;
+    transform: translateX(168%);
+    top: 38px;
+    transition: all linear .3s;
+}
+.ser_icon_part{
+	height: 70px;
+	width: 70px;
+	background-color: #f1f1f1;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all linear .3s;
+}
+.ser_content{
+	background-color: #f1f1f1;
+	padding: 50px 22px 22px;
+	text-align: center;
+	transition: all linear .3s;
+}
+.ser_content h4{
+	font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.ser_content p{
+	color: #7d7d7d;
+	font-size: 13px;
+}
+.service_main:hover .ser_part,
+.service_main:hover .ser_icon_part{
+	background-color: #5bc5f4;
+	transition: all linear .3s;
+}
+.service_main:hover .ser_content{
+	box-shadow: 0 0 3px gray;
+	transition: all linear .3s;
+}
+
+/*service part css end here*/
+
+/*portfolio css part start*/
+
+.por_head img{
+    position: relative;
+	transform: translateX(-51%);
+	top: -22px;
+}
+.port_img_gal{
+    margin-top: 20px;
+    position: relative;
+}
+.portfolio{
+    padding-bottom: 60px;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .6);
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+	transform: scale(0);
+	transition: all linear .3s;
+
+}
+.port_img_gal:hover .overlay{
+    transform: scale(1);
+	transition: all linear .3s;
+}
+.overlay a{
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    border: 40px 30px;
+    background-color: #5bc5f4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay i{
+    transform: rotate(90deg);
+    color: #f4fbfe;
+}
+
+/*portfolio css part end*/
+
+/*team css part start*/
+.team{
+    padding-bottom: 60px;
+}
+.team_head img{
+    position: relative;
+	transform: translateX(-14%);
+	top: -22px;
+}
+.team_con h4{
+    padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.team_con p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+.team_man:hover img{
+    box-shadow: 0 0 3px gray;
+	transition: all linear .3s;
+}
+.team_man{
+    position: relative;
+}
+.overlay_port{
+    margin-left: 70%;
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 30%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .6);
+	transform: scale(0);
+	transition: all linear .3s;
+    padding-left: 15px;
+    padding-top: 45px;
+    
+}
+.overlay_port_icon{
+    padding-bottom: 15px;
+    transition: all linear .3s;
+}
+.overlay_port i{
+    font-size: 20px;
+    color: #fff;
+}
+.overlay_port a{
+    height: 40px;
+    width: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .3s;
+}
+
+.team_man:hover .overlay_port{
+    transform: scale(1);
+	transition: all linear .3s;
+}
+.overlay_port_icon:hover a{
+    text-decoration: none;
+    border: solid #5bc5f4;
+    background-color: #5bc5f4;
+    transform: scale(1);
+	transition: all linear .3s;
+}
+
+
+/*team part css end*/
+
+/*testimonial part css start*/
+.test_head img{
+    position: relative;
+	transform: translateX(-31%);
+	top: -22px;
+}
+.test_img{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cube_main{
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.test_cube{
+    transform: rotate(45deg);
+    height: 28px;
+    width: 28px;
+    border: 40px 30px;
+    background-color: #f1f1f1; 
+}
+.testimonial{
+    padding-bottom: 60px;
+}
+.test_con{
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px 22px 5px;
+}
+.test_con h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #353535;
+    text-transform: uppercase;
+}
+.test_con h5{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #5f5f5f;
+    text-transform: capitalize;
+}
+.test_con p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #5f5f5f;
+    
+}
+.test_con a{
+    color: #5bc5f4;
+}
+
+/*testimonial part css end*/
+
+/*contact part css start*/
+.contact{
+    background-color: #353535;
+}
+.cont_log p{
+    padding-top: 30px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+.cont_log img{
+    padding-top: 20px;
+}
+.info_con{
+  padding-top: 30px;  
+}
+.info_con p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+.info_con h4{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.phone{
+    padding-top: 10px;
+    display: flex;
+}
+.phone i{
+    color: #fff;
+    transform: rotate(90deg);
+}
+.phone p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 10px;
+    
+}
+.phone a{
+    height: 35px;
+    width: 35px;
+    border: 2px solid #5bc5f4;
+    border-radius: 50%;
+    background-color: #5bc5f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    padding-top: 10px;
+    display: flex;
+}
+.message i{
+    color: #fff;
+}
+.message p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 10px;
+    
+}
+.message a{
+    height: 35px;
+    width: 35px;
+    border: 2px solid #5bc5f4;
+    border-radius: 50%;
+    background-color: #5bc5f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.globe{
+    padding-top: 10px;
+    display: flex;
+}
+.globe i{
+    color: #fff;
+}
+.globe p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 10px;
+    
+}
+.globe a{
+/*    padding-bottom: 10px;*/
+    height: 35px;
+    width: 35px;
+    border: 2px solid #5bc5f4;
+    border-radius: 50%;
+    background-color: #5bc5f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imp_links h4{
+    padding-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.links{
+    padding-bottom: 16px;
+}
+.links a{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+.links a:hover{
+    color: #53a8ce;
+    text-decoration: none;
+}
+.flicker_text h4{
+    padding: 30px 0px;;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.flicker_img{
+    padding-bottom: 15px;
+}
+/*contact part css end*/
+
+/*footer part css start*/
+
+footer{
+    background-color: #555555;
+    color: #f1f1f1;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+footer span{
+    color: #5bc5f4;
+}
+
+/*footer part css end*/
+
+body{
+	font-family: 'Oswald', sans-serif;
+     font-family: 'Open Sans', sans-serif;
+}
+
